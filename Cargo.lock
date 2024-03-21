@@ -1368,6 +1368,7 @@ dependencies = [
  "layout_inspect",
  "serde",
  "serde_json",
+ "static_assertions",
 ]
 
 [[package]]
@@ -1642,7 +1643,6 @@ dependencies = [
 name = "oxc_parser_napi"
 version = "0.0.0"
 dependencies = [
- "bumpalo",
  "flexbuffers",
  "layout_inspect",
  "napi",
