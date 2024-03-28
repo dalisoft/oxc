@@ -36,7 +36,7 @@ declare_oxc_lint!(
     /// export * from "./export-all" // export-all.js also export foo
     /// ```
     Export,
-    nursery
+    correctness
 );
 
 impl Rule for Export {
