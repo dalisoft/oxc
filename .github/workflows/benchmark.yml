@@ -110,6 +110,7 @@ jobs:
   benchmark-napi:
     name: Benchmark NAPI parser
     runs-on: ubuntu-latest
+    if: false
     steps:
       - name: Checkout Branch
         uses: taiki-e/checkout-action@v1
